@@ -29,3 +29,43 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+#gradblue {
+  background: blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-45deg, #2196F3 , #b3e5fc); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(-45deg, #2196F3, #b3e5fc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to -45deg, #2196F3 , #b3e5fc); /* Standard syntax */
+}
+
+#gradwhite {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-45deg, white , #81d4fa); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(-45deg, white, #81d4fa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to -45deg, white , #81d4fa); /* Standard syntax */
+}
+
+#gradwhitenav {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-45deg, white , #03a9f4); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(-45deg, white, #03a9f4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to -45deg, white , #03a9f4); /* Standard syntax */
+}
+
+#backgrounds {
+  background: url(Images/hands.jpg);
+  background-size:auto;
+}
+
+body {
+    background-image: url("Images/hands.jpg");
+}
+
+.tag {
+  display:none;
+  margin-left:-50%;
+  font-size:14px;
+  margin-top:10px;
+  text-align:center;
+  color:black;
+  display:block;
+}
