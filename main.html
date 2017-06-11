@@ -28,6 +28,29 @@
       overflow: hidden;
       border-radius: 50%;
     }
+
+    .seethrough {
+        background-color: #ffffff;
+        border: 1px;
+        opacity: 0.5;
+    }
+
+    .solid {
+      opacity: 1.0;
+    }
+
+    .bubble
+    {
+      position: relative;
+      width: 520px;
+      height: 85px;
+      padding: 0px;
+      background: #FFFFFF;
+      -webkit-border-radius: 23px;
+      -moz-border-radius: 23px;
+      border-radius: 23px;
+      box-shadow:5px 5px 30px black;
+    }
   </style>
   <body>
     <nav class="transparent">
@@ -52,13 +75,26 @@
            <img class = "responsive-img" src = "Images/IMG_3575.JPG.jpg" id="profilepic">
          </div>
        </div>
+       <div class = "col s6">
+         <div class = "card-panel transparent bubble">
+           <h2 class = "white-text center solid">Nigel A. S. Harvey</h2>
+         </div>
+       </div>
      </div>
      <div class = "row">
-       <div class = "col s3">
-         <h4 class = "white-text">Hobbies</h4>
+       <div class = "col s4">
+         <div class = "row">
+           <h4 class = "white-text">Hobbies</h4>
+         </div>
+         <div class = "section  card-panel">
+           <h5 class = "spicyFont"> Piano <div class = "divider"></div>
+           </br> Soccer <div class = "divider"></div>
+           </br> Strategy Games <div class = "divider"></div>
+           </br> Learning New Things</h5>
+         </div>
        </div>
 
-       <div class = "col s6">
+       <div class = "col s4">
          <div class = "row">
            <div class = "col s3">
            </div>
@@ -68,9 +104,14 @@
            <div class = "col s3">
            </div>
          </div>
+         <div class = "row">
+           <div class = "section card-panel">
+             <h5 class = "spicyFont"> Description </h5>
+           </div>
+         </div>
          </div>
 
-         <div class = "col s3">
+         <div class = "col s4">
            <h4 class = "white-text">Photos</h4>
          </div>
        </div>

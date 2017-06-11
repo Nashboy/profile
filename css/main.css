@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|PT+Serif:400i');
+
+.sexyFont {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Great Vibes', cursive;
+}
+
+.spicyFont {
+  font-family: 'PT Serif', serif;
+}
+
+.bubble
+{
+  position: relative;
+  width: 520px;
+  height: 85px;
+  padding: 0px;
+  background: #FFFFFF;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  box-shadow:5px 5px 30px black;
+}
+
 .overlay {
   position: absolute;
   top: 0;
